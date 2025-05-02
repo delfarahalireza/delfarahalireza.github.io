@@ -218,7 +218,7 @@ nav {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .hero-content h2 {
@@ -269,7 +269,7 @@ nav {
 .skills h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .skill-categories {
@@ -331,17 +331,17 @@ nav {
 }
 
 .timeline-content {
-    background-color: white;
+    background-color: var(--bg-alt-color);
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     border-left: 3px solid var(--primary-color);
 }
 
 .timeline-content h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .timeline-content h4 {
@@ -403,7 +403,7 @@ nav {
 .project-content h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .project-content p {
@@ -460,7 +460,7 @@ nav {
 .publication-item h3 {
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .publication-authors {
@@ -507,7 +507,7 @@ nav {
 }
 
 .research-coverage .publication-link:hover {
-    color: var(--secondary-color);
+    color: var(--primary-light);
 }
 
 .research-coverage .section-title::after {
@@ -524,7 +524,7 @@ nav {
 .contact-info h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .contact-info p {
@@ -677,7 +677,7 @@ footer {
         top: 70px;
         height: calc(100vh - 70px);
         width: 50%;
-        background-color: white;
+        background-color: var(--bg-color);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -685,7 +685,7 @@ footer {
         padding-top: 2rem;
         transform: translateX(100%);
         transition: var(--transition);
-        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
     }
 
     .nav-links li {
